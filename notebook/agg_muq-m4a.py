@@ -68,8 +68,8 @@ def traverse_and_extract_features(folder_path, output_path, threshold_sec):
     # with open(pkl_file_path, 'wb') as f:
     #     pickle.dump(features_dict, f)
 
-folder_path = ''
-output_path = ''
+folder_path = 'WAV_FILE_FOLDER_PATH' 
+output_path = 'OUTPUT_PATH'  
 os.makedirs(output_path, exist_ok=True)
 
 threshold_sec = 360.0
