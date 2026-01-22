@@ -68,8 +68,8 @@ def traverse_and_extract_features(folder_path, output_path, threshold_sec):
     # with open(pkl_file_path, 'wb') as f:
     #     pickle.dump(features_dict, f)
 
-folder_path = '/data2/zhouyz/rec/MSD_old/'
-output_path = '/data2/zhouyz/rec/MSD_old/muq-last-npy-10'
+folder_path = ''
+output_path = ''
 os.makedirs(output_path, exist_ok=True)
 
 threshold_sec = 360.0

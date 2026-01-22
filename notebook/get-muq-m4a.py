@@ -41,8 +41,8 @@ def traverse_and_extract_features(folder_path, output_path):
     # with open(pkl_file_path, 'wb') as f:
     #     pickle.dump(features_dict, f)
 
-folder_path = '/data2/zhouyz/rec/music4all/music4all/audios'
-output_path = '/data2/zhouyz/rec/music4all/music4all/muq-last-npy'
+folder_path = 'WAV_FILE_FOLDER_PATH' 
+output_path = 'OUTPUT_PATH'  
 os.makedirs(output_path, exist_ok=True)
 
 traverse_and_extract_features(folder_path, output_path)
